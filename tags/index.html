@@ -95,12 +95,13 @@
 </script>
 
   <meta property="og:type" content="website">
-<meta property="og:title" content="ltzdby@ltzdby.tech">
-<meta property="og:url" content="https://ltzdby.github.io/index.html">
+<meta property="og:title" content="All tags">
+<meta property="og:url" content="https://ltzdby.github.io/tags/index.html">
 <meta property="og:site_name" content="ltzdby@ltzdby.tech">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2019-07-25T09:06:48.374Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="ltzdby@ltzdby.tech">
+<meta name="twitter:title" content="All tags">
 
 
 
@@ -108,7 +109,7 @@
 
   
   
-  <link rel="canonical" href="https://ltzdby.github.io/">
+  <link rel="canonical" href="https://ltzdby.github.io/tags/">
 
 
 
@@ -119,7 +120,7 @@
 </script>
 
   
-  <title>ltzdby@ltzdby.tech</title>
+  <title>All tags | ltzdby@ltzdby.tech</title>
   
 
 
@@ -167,8 +168,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -210,7 +210,7 @@
         
         
           
-          <li class="menu-item menu-item-home menu-item-active">
+          <li class="menu-item menu-item-home">
 
     
     
@@ -226,7 +226,7 @@
         
         
           
-          <li class="menu-item menu-item-tags">
+          <li class="menu-item menu-item-tags menu-item-active">
 
     
     
@@ -263,6 +263,22 @@
   
     
 
+    
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+    
+
+  
+
+
   
 
   
@@ -282,213 +298,64 @@
           
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://ltzdby.github.io/2019/03/14/hexo/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="ltzdby">
-      <meta itemprop="description" content>
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="ltzdby@ltzdby.tech">
-    </span>
-
     
+    
+    <div class="post-block page">
       <header class="post-header">
 
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2019/03/14/hexo/" class="post-title-link" itemprop="url">如何部署和使用Hexo+GitHub创建个人博客</a>
-              
-            
-          </h1>
-        
+<h1 class="post-title" itemprop="name headline">All tags
 
-        <div class="post-meta">
+</h1>
 
-          
-          
-          
+<div class="post-meta">
+  
+  
 
-          
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
 
-              
-                
-              
 
-              <time title="创建时间：2019-03-14 22:49:24" itemprop="dateCreated datePublished" datetime="2019-03-14T22:49:24+08:00">2019-03-14</time>
-            </span>
-          
+</div>
 
-          
-            
-
-            
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2019-07-25 17:06:48" itemprop="dateModified" datetime="2019-07-25T17:06:48+08:00">2019-07-25</time>
-              </span>
-            
-          
-
-          
-
-          
-            
-            
-          
-
-          
-          
-
-          
-
-          
-
-          <br>
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
+</header>
 
       
       
-
       
+      <div class="post-body">
         
-          <h1 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h1><h2 id="GitHub设置"><a href="#GitHub设置" class="headerlink" title="GitHub设置"></a>GitHub设置</h2><ol>
-<li>在GitHub上创建一个项目，项目名称必须为<strong>自己的GitHub用户名.github.io</strong>，即一个GitHub Pages仓库。</li>
-<li>等10-30分钟，之后使用<strong>自己的GitHub用户名.github.io</strong>就能访问到这个GitHub Pages了。</li>
-</ol>
-<h2 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h2><ol>
-<li><p>全局安装Hexo。</p>
- <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br><span class="line">hexo -v  // 查看Hexo版本</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>cd进入Hexo源文件目录，初始化Hexo。</p>
- <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>生成可以发布的静态HTML文件。</p>
- <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>开启Hexo本地服务。</p>
- <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
-
-</li>
-</ol>
-<h2 id="关联Hexo和GitHub-Pages"><a href="#关联Hexo和GitHub-Pages" class="headerlink" title="关联Hexo和GitHub Pages"></a>关联Hexo和GitHub Pages</h2><ol>
-<li><p>生成SSH key。</p>
-<p> Linux系统下个人密钥默认在<code>/home/用户名/.ssh</code>目录下，Windows系统下个人密钥默认在<code>C:/Users/用户名/.ssh</code>下。如果没有公私钥可以在Linux下用<code>ssh-keygen</code>命令生成。</p>
-</li>
-<li><p>将公钥<code>.ssh/id_rsa.pub</code>的内容复制，打开GitHub的个人设置-SSH and GPG keys-New SSH key，粘贴并保存。可在命令行用<code>ssh -T git@github.com</code>测试是否成功。</p>
-</li>
-<li><p>设置Git的<strong>username</strong>和<strong>email</strong>。</p>
- <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &quot;你的用户名&quot;</span><br><span class="line">git config --global user.email &quot;你的email&quot;</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>部署设置。打开Hexo源文件目录下的<strong>_config.yml</strong>，找到deploy部分。</p>
- <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: git@github.com:ltzdby/ltzdby.github.io.git  // 注意：这里不能使用https链接</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>此时可以使用<code>hexo -g</code>然后<code>hexo -d</code>尝试部署，如果提示<code>Deployer not found: git</code>那需要安装一个插件：</p>
- <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
-
-</li>
-</ol>
-<p>再尝试一下，应该OK了。</p>
-          <!--noindex-->
-          
-            <div class="post-button text-center">
-              <a class="btn" href="/2019/03/14/hexo/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
+        
+          <div class="tag-cloud">
+            <div class="tag-cloud-title">
+              
+              
+                
+                  
+                
+              
+              目前共计 1 个标签
             </div>
-          
-          <!--/noindex-->
+            <div class="tag-cloud-tags">
+              
+                <a href="/tags/GitHub/" style="font-size: 12px; color: #ccc">GitHub</a>
+              
+            </div>
+          </div>
         
+      </div>
+      
+      
       
     </div>
-
     
 
-    
+
 
     
     
     
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
   </div>
-  
-  
-  
-  </article>
-
-
-    
-  </section>
-
-  
 
 
           </div>
@@ -704,6 +571,10 @@
 
 
   
+  <script src="/js/scrollspy.js?v=7.2.0"></script>
+<script src="/js/post-details.js?v=7.2.0"></script>
+
+
 
   <script src="/js/next-boot.js?v=7.2.0"></script>
 
